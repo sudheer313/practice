@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Places Search Box</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdxR5Jr1poJ7NQTQO9neRUsx4WDRmetEM&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
